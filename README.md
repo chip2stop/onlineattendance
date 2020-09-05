@@ -8,4 +8,15 @@
 
 > Inventory management created in **Next.js** and **Redux**
 
-this open source project is an inventory and financial control s
+this open source project is an inventory and financial control system.<br />
+Be sure to send your feedback.
+
+## Technology stack
+
+- **Front-end:** [Next.js](https://nextjs.org/)
+- **State-Container:** [Redux](https://redux.js.org/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+## Test Online
+
+[Click Here](https://sto
