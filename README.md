@@ -19,4 +19,23 @@ Be sure to send your feedback.
 
 ## Test Online
 
-[Click Here](https://sto
+[Click Here](https://stock-iamdevmarcos.vercel.app/)
+
+## Running locally
+
+1. Clone this repo:
+
+```sh
+$ git clone https://github.com/iamdevmarcos/stock-management.git
+```
+
+2. Then go to the project's folder:
+
+```sh
+cd stock-management
+```
+
+3. Install all dependencies:
+
+```sh
+npm instal
