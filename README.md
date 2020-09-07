@@ -38,4 +38,16 @@ cd stock-management
 3. Install all dependencies:
 
 ```sh
-npm instal
+npm install
+```
+
+4. Run locally:
+
+```sh
+npm run dev
+```
+
+## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/92524722?v=4" width=115><br><sub>@iamdevmarcos</sub>](https://github.com/iamdevmarcos) |
+| :-------------------------------------------------------------------------
