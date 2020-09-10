@@ -20,4 +20,15 @@ export default function ContentArea() {
   const dispatch = useDispatch();
 
   const currentDate = getCurrentDate();
-  const m
+  const mask = useMask();
+
+  useEffect(() => {
+    let revenueCount = 0;
+    let expenseCount = 0;
+
+    // loop to complete values ​​in income and expense
+    for (let i in list) {
+      if (list[i].category === "Venda") {
+        revenueCount += list[i].totalValue;
+      } else {
+  
