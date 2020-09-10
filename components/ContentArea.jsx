@@ -12,4 +12,12 @@ import { order } from "../store/slices/productSlice";
 import TableArea from "./TableArea";
 
 import { getCurrentDate, formatCurrentMonth } from "../utils/dateUtil";
-impo
+import { useMask } from "../hooks/useMask";
+
+export default function ContentArea() {
+  const list = useSelector((state) => state.product);
+  const finance = useSelector((state) => state.finance);
+  const dispatch = useDispatch();
+
+  const currentDate = getCurrentDate();
+  const m
