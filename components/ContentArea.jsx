@@ -31,4 +31,19 @@ export default function ContentArea() {
       if (list[i].category === "Venda") {
         revenueCount += list[i].totalValue;
       } else {
-  
+        expenseCount += list[i].totalValue;
+      }
+    }
+
+    dispatch(setRevenue(revenueCount));
+    dispatch(setExpense(expenseCount));
+  }, [list]);
+
+  return (
+    <Flex
+      w="85%"
+      p="3%"
+      flexDir="column"
+      overflow="auto"
+      minH="100vh"
+      backgro
