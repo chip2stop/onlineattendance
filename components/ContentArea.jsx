@@ -46,4 +46,14 @@ export default function ContentArea() {
       flexDir="column"
       overflow="auto"
       minH="100vh"
-      backgro
+      background="#fff"
+    >
+      <Heading fontWeight="normal" mb={12} letterSpacing="tight">
+        Bem-vindo de volta,{" "}
+        <Flex fontWeight="bold" display="inline-flex">
+          Marcos 👋
+        </Flex>
+      </Heading>
+      <Flex flexDir="row">
+        <Flex
+       
