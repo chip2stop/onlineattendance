@@ -56,4 +56,14 @@ export default function ContentArea() {
       </Heading>
       <Flex flexDir="row">
         <Flex
-       
+          flexDir="column"
+          padding="5"
+          marginRight={5}
+          background="#020202"
+          borderRadius={10}
+          minW="150px"
+        >
+          <Text color="#ccc" fontSize="sm">
+            Receitas
+          </Text>
+          <Text color=
