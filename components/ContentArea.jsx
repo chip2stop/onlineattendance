@@ -66,4 +66,14 @@ export default function ContentArea() {
           <Text color="#ccc" fontSize="sm">
             Receitas
           </Text>
-          <Text color=
+          <Text color="#fff" fontWeight="bold" fontSize="2xl">
+            {mask.toBRL(finance.revenue)}
+          </Text>
+        </Flex>
+        <Flex
+          flexDir="column"
+          padding="5"
+          marginRight={5}
+          background="#020202"
+          borderRadius={10}
+          mi
