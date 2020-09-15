@@ -76,4 +76,14 @@ export default function ContentArea() {
           marginRight={5}
           background="#020202"
           borderRadius={10}
-          mi
+          minW="150px"
+        >
+          <Text color="#ccc" fontSize="sm">
+            Despesas
+          </Text>
+          <Text color="#fff" fontWeight="bold" fontSize="2xl" mb={2}>
+            {mask.toBRL(finance.expense)}
+          </Text>
+        </Flex>
+        <Flex
+          flexDir="c
