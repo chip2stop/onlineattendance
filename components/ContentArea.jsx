@@ -86,4 +86,16 @@ export default function ContentArea() {
           </Text>
         </Flex>
         <Flex
-          flexDir="c
+          flexDir="column"
+          padding="5"
+          marginRight={5}
+          background="#020202"
+          borderRadius={10}
+          minW="150px"
+        >
+          <Text color="#ccc" fontSize="sm">
+            Balanço
+          </Text>
+          <Text
+            color={
+     
