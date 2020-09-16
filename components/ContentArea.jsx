@@ -98,4 +98,12 @@ export default function ContentArea() {
           </Text>
           <Text
             color={
-     
+              finance.revenue - finance.expense >= 0 ? "#00ff00" : "#ff0000"
+            }
+            fontWeight="bold"
+            fontSize="2xl"
+          >
+            {mask.toBRL(finance.revenue - finance.expense)}
+          </Text>
+        </Flex>
+      </Flex
