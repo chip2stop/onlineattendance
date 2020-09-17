@@ -106,4 +106,12 @@ export default function ContentArea() {
             {mask.toBRL(finance.revenue - finance.expense)}
           </Text>
         </Flex>
-      </Flex
+      </Flex>
+
+      <Flex justifyContent="space-between" mt={8}>
+        <Flex align="flex-end">
+          <Heading as="h2" size="lg" letterSpacing="tight">
+            Transações
+          </Heading>
+          <Text fontSize="small" color="gray" ml={4}>
+    
