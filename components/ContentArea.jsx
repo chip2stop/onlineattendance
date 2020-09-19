@@ -122,4 +122,13 @@ export default function ContentArea() {
             <Text fontWeight="normal" fontSize="16">
               ORDENAR [A-Z]
             </Text>
-      
+          </Button>
+          <Link href="/add">
+            <IconButton icon={<FiPlus />} />
+          </Link>
+        </Flex>
+      </Flex>
+      <Flex flexDir="column">
+        <Flex overflow="auto">
+          {list.length !== 0 && <TableArea />}
+          {list.length === 0 && 
