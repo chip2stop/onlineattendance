@@ -114,4 +114,12 @@ export default function ContentArea() {
             Transações
           </Heading>
           <Text fontSize="small" color="gray" ml={4}>
-    
+            {formatCurrentMonth(currentDate)}
+          </Text>
+        </Flex>
+        <Flex gap={10}>
+          <Button onClick={() => dispatch(order())}>
+            <Text fontWeight="normal" fontSize="16">
+              ORDENAR [A-Z]
+            </Text>
+      
