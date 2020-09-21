@@ -131,4 +131,15 @@ export default function ContentArea() {
       <Flex flexDir="column">
         <Flex overflow="auto">
           {list.length !== 0 && <TableArea />}
-          {list.length === 0 && 
+          {list.length === 0 && (
+            <Flex mt={50}>
+              <Text fontSize="25" m="auto">
+                Nenhuma transação efetuada 💵
+              </Text>
+            </Flex>
+          )}
+        </Flex>
+      </Flex>
+    </Flex>
+  );
+}
