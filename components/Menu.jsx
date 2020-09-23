@@ -12,3 +12,12 @@ export default function Menu() {
       backgroundColor="#020202"
       color="#fff"
     >
+      <Flex flexDir="column" justifyContent="space-between" h="100vh">
+        <Flex flexDir="column" as="nav">
+          <Heading
+            mt={50}
+            mb={100}
+            fontSize="4xl"
+            alignSelf="center"
+            letterSpacing="tight"
+        
