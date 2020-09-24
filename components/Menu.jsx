@@ -20,4 +20,11 @@ export default function Menu() {
             fontSize="4xl"
             alignSelf="center"
             letterSpacing="tight"
-        
+          >
+            Stock.
+          </Heading>
+          <Flex flexDir="column" align="flex-start" justifyContent="center">
+            <Flex className="sidebar-items">
+              <Link href="/">
+                <Flex>
+                  <Icon as={FiHome} fontSize="2xl
