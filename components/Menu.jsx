@@ -36,4 +36,13 @@ export default function Menu() {
             </Flex>
             <Flex className="sidebar-items">
               <Link href="/about">
-                <Flex
+                <Flex>
+                  <Icon as={FiCoffee} fontSize="2xl" />
+                  <Text color="#fff" cursor={"pointer"}>
+                    Sobre
+                  </Text>
+                </Flex>
+              </Link>
+            </Flex>
+            <a
+            
