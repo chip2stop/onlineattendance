@@ -45,4 +45,10 @@ export default function Menu() {
               </Link>
             </Flex>
             <a
-            
+              href="https://github.com/iamdevmarcos/stock-management"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Flex className="sidebar-items">
+                <Icon as={FiGithub} fontSize="2xl" />
+                <Text color="#fff">Github
