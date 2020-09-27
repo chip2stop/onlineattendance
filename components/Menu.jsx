@@ -51,4 +51,15 @@ export default function Menu() {
             >
               <Flex className="sidebar-items">
                 <Icon as={FiGithub} fontSize="2xl" />
-                <Text color="#fff">Github
+                <Text color="#fff">Github</Text>
+              </Flex>
+            </a>
+          </Flex>
+        </Flex>
+        <Flex flexDir="column" alignItems="center" mb={10} mt={5}>
+          <Avatar my={3} src="profile.png" />
+          <Text textAlign="center">Marcos Andre</Text>
+        </Flex>
+      </Flex>
+    </Flex>
+  )
