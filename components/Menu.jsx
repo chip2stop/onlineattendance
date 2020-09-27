@@ -62,4 +62,5 @@ export default function Menu() {
         </Flex>
       </Flex>
     </Flex>
-  )
+  );
+}
