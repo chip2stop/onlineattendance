@@ -17,4 +17,13 @@ export default function TableArea() {
           <Th>Categoria</Th>
           <Th isNumeric>Valor</Th>
           <Th isNumeric>Ações</Th>
-  
+        </Tr>
+      </Thead>
+      <Tbody>
+        {list.map((item, index) => (
+          <TableItem key={index} data={item} />
+        ))}
+      </Tbody>
+    </Table>
+  );
+}
