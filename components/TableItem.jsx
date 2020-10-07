@@ -17,4 +17,17 @@ import {
 } from "@chakra-ui/react";
 import { FiX, FiClipboard } from "react-icons/fi";
 
-exp
+export default function TableItem({ data }) {
+  const mask = useMask();
+  const dispatch = useDispatch();
+
+  const handleDelItem = () => {
+    if (confirm("Deletar este item")) {
+      dispatch(del({ id: data.id }));
+    }
+  };
+
+  return (
+    <Tr>
+      <Td>
+        <Flex align=
