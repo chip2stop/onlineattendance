@@ -30,4 +30,13 @@ export default function TableItem({ data }) {
   return (
     <Tr>
       <Td>
-        <Flex align=
+        <Flex align="center">
+          <Flex flexDir="column">
+            <Heading size="sm" letterSpacing="tight">
+              {data.productName}
+            </Heading>
+            <Text fontSize="sm" color="gray">
+              {formatCurrentMonth(data.dateMade)}
+            </Text>
+          </Flex>
+ 
