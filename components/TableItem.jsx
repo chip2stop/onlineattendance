@@ -39,4 +39,15 @@ export default function TableItem({ data }) {
               {formatCurrentMonth(data.dateMade)}
             </Text>
           </Flex>
- 
+        </Flex>
+      </Td>
+      <Td>
+        <Flex>{data.category}</Flex>
+      </Td>
+      <Td isNumeric>
+        <Text fontWeight="bold" display="inline-table">
+          {mask.toBRL(data.totalValue)}
+        </Text>
+      </Td>
+      <Td>
+      
