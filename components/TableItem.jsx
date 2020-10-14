@@ -50,4 +50,11 @@ export default function TableItem({ data }) {
         </Text>
       </Td>
       <Td>
-      
+        <Link href={`/product/${data.id}`}>
+          <IconButton icon={<FiClipboard />} mr={5} />
+        </Link>
+        <IconButton icon={<FiX />} onClick={handleDelItem} />
+      </Td>
+    </Tr>
+  );
+}
