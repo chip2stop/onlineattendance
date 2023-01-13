@@ -25,4 +25,13 @@ export default function About() {
           background="#fff"
         >
           <Heading
-            textAli
+            textAlign={"center"}
+            align={"center"}
+            fontWeight="normal"
+            mb={12}
+            letterSpacing="tight"
+          >
+            Sobre este projeto 🚀
+          </Heading>
+          <Stack textAlign={"center"} align={"center"} mt={30}>
+            <Text f
