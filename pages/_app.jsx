@@ -6,4 +6,14 @@ import store from "../store/configureStore";
 
 function myApp({ Component, pageProps }) {
   return (
-    <Provider 
+    <Provider store={store}>
+      <GlobalStyles />
+
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </Provider>
+  );
+}
+
+export default myApp;
