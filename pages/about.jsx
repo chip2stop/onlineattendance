@@ -43,4 +43,11 @@ export default function About() {
             <Flex w={"full"} alignItems="center" justifyContent="center">
               <Box boxSize="sm" mt={30}>
                 <Image src="about.svg" alt="Project Image" />
-            
+              </Box>
+            </Flex>
+          </Stack>
+        </Flex>
+      </Flex>
+    </>
+  );
+}
