@@ -34,4 +34,8 @@ export default function About() {
             Sobre este projeto 🚀
           </Heading>
           <Stack textAlign={"center"} align={"center"} mt={30}>
-            <Text f
+            <Text fontSize={18} color={"gray.500"} maxW={"3xl"}>
+              Sistema de estoque de produtos criado com <strong>Next.js</strong>{" "}
+              e <strong>Redux</strong>. <br />
+              Projeto criado para estudos, então sinta-se a vontade para baixar
+              o c
