@@ -38,4 +38,9 @@ export default function About() {
               Sistema de estoque de produtos criado com <strong>Next.js</strong>{" "}
               e <strong>Redux</strong>. <br />
               Projeto criado para estudos, então sinta-se a vontade para baixar
-              o c
+              o código no Github e usá-lo da melhor maneira que encontrar 😄
+            </Text>
+            <Flex w={"full"} alignItems="center" justifyContent="center">
+              <Box boxSize="sm" mt={30}>
+                <Image src="about.svg" alt="Project Image" />
+            
