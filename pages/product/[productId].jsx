@@ -9,4 +9,16 @@ import Menu from "../../components/Menu";
 
 import {
   Flex,
-  FormCo
+  FormControl,
+  FormLabel,
+  Heading,
+  Input,
+  Select,
+  Button,
+  NumberInput,
+  NumberInputField,
+} from "@chakra-ui/react";
+
+export default function Product() {
+  const [productName, setProductName] = useState("");
+  const [productCategory, setProductCategory] = useState("");
