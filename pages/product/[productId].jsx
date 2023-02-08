@@ -82,4 +82,13 @@ export default function Product() {
           <FormControl>
             <FormLabel htmlFor="product-name">Nome do Produto:</FormLabel>
             <Input
-              id="product-name
+              id="product-name"
+              placeholder="ex: Macbook Pro M1"
+              value={productName}
+              onChange={(e) => setProductName(e.target.value)}
+            />
+          </FormControl>
+          <br />
+
+          <FormControl>
+            <FormLabel htmlFor="category">Catego
