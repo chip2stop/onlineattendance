@@ -48,4 +48,18 @@ export default function Product() {
           id: query.productId,
           productName,
           category: productCategory,
-          totalValue: parseInt
+          totalValue: parseInt(productValue),
+        })
+      );
+      router.push("/");
+    } else {
+      alert("Preencha todos os campos!");
+    }
+  };
+
+  return (
+    <>
+      <Head>
+        <title>Stock Management</title>
+      </Head>
+      <Flex h="100vh" flexDir="row" overflow="hidden" maxW="2000p
