@@ -98,4 +98,13 @@ export default function Product() {
             >
               <option></option>
               <option selected={productCategory === "Venda" ? "selected" : ""}>
-   
+                Venda
+              </option>
+              <option selected={productCategory === "Compra" ? "selected" : ""}>
+                Compra
+              </option>
+            </Select>
+          </FormControl>
+          <br />
+
+          <FormControl>
