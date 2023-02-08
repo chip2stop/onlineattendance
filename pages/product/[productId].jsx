@@ -31,4 +31,12 @@ export default function Product() {
   const { query } = useRouter();
 
   useEffect(() => {
-    // loop to check if the id passed as a parameter
+    // loop to check if the id passed as a parameter exists in the list. Then fill in the data
+    for (let i in state) {
+      if (state[i].id === query.productId) {
+        setProductName(state[i].productName);
+        setProductCategory(state[i].category);
+        setProductValue(state[i].totalValue);
+      }
+    }
+  },
