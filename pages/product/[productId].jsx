@@ -91,4 +91,11 @@ export default function Product() {
           <br />
 
           <FormControl>
-            <FormLabel htmlFor="category">Catego
+            <FormLabel htmlFor="category">Categoria:</FormLabel>
+            <Select
+              id="category"
+              onChange={(e) => setProductCategory(e.target.value)}
+            >
+              <option></option>
+              <option selected={productCategory === "Venda" ? "selected" : ""}>
+   
