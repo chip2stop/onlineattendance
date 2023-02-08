@@ -75,4 +75,11 @@ export default function Product() {
           minH="100vh"
           background="#fff"
         >
-      
+          <Heading fontWeight="normal" mb={12} letterSpacing="tight">
+            Editar Transação
+          </Heading>
+
+          <FormControl>
+            <FormLabel htmlFor="product-name">Nome do Produto:</FormLabel>
+            <Input
+              id="product-name
