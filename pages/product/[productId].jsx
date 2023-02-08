@@ -39,4 +39,13 @@ export default function Product() {
         setProductValue(state[i].totalValue);
       }
     }
-  },
+  }, []);
+
+  const handleEditProduct = () => {
+    if (productName !== "" && productCategory !== "" && productValue !== "") {
+      dispatch(
+        edit({
+          id: query.productId,
+          productName,
+          category: productCategory,
+          totalValue: parseInt
