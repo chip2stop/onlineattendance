@@ -62,4 +62,17 @@ export default function Product() {
       <Head>
         <title>Stock Management</title>
       </Head>
-      <Flex h="100vh" flexDir="row" overflow="hidden" maxW="2000p
+      <Flex h="100vh" flexDir="row" overflow="hidden" maxW="2000px">
+        {/* Column 1 - Menu */}
+        <Menu />
+
+        {/* Column 2 - AddArea */}
+        <Flex
+          w="85%"
+          p="3%"
+          flexDir="column"
+          overflow="auto"
+          minH="100vh"
+          background="#fff"
+        >
+      
