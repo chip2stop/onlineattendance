@@ -108,3 +108,9 @@ export default function Product() {
           <br />
 
           <FormControl>
+            <FormLabel htmlFor="product-price">Valor:</FormLabel>
+            <NumberInput max={99999} min={1} value={productValue}>
+              <NumberInputField
+                id="product-price"
+                placeholder="Valor total da transação"
+                onC
