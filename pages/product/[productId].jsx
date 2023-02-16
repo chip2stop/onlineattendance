@@ -125,4 +125,12 @@ export default function Product() {
             color="#fff"
             _hover={false}
             type="submit"
-           
+            onClick={handleEditProduct}
+          >
+            Editar Transação
+          </Button>
+        </Flex>
+      </Flex>
+    </>
+  );
+}
