@@ -113,4 +113,16 @@ export default function Product() {
               <NumberInputField
                 id="product-price"
                 placeholder="Valor total da transação"
-                onC
+                onChange={(e) => setProductValue(e.target.value)}
+              />
+            </NumberInput>
+          </FormControl>
+          <br />
+
+          <Button
+            mt={4}
+            background="#000"
+            color="#fff"
+            _hover={false}
+            type="submit"
+           
