@@ -5,4 +5,5 @@ import financeReducer from "./slices/financeSlice";
 export default {
   count: countReducer,
   product: productReducer,
-  finance: financeRe
+  finance: financeReducer,
+};
