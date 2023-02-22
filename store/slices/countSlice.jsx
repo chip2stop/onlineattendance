@@ -10,4 +10,12 @@ const slice = createSlice({
       return { ...state, total: state.total + 1 };
     },
     decrement: (state) => {
-      if 
+      if (state.total > 1) {
+        return { ...state, total: state.total - 1 };
+      }
+    },
+  },
+});
+
+export const { increment, decrement } = slice.actions;
+export default slice.reducer;
