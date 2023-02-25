@@ -11,4 +11,10 @@ const slice = createSlice({
       return { ...state, revenue: action.payload };
     },
     setExpense: (state, action) => {
-      return { ...state, expense: action.payloa
+      return { ...state, expense: action.payload };
+    },
+  },
+});
+
+export const { setRevenue, setExpense } = slice.actions;
+export default slice.reducer;
