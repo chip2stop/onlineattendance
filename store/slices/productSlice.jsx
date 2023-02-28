@@ -39,4 +39,13 @@ const slice = createSlice({
     },
     order: (state) => {
       let newState = [...state];
-  
+      newState = newState.sort((a, b) =>
+        a.productName > b.productName ? 1 : -1
+      );
+      return newState;
+    },
+  },
+});
+
+export const { insert, edit, del, order } = slice.actions;
+export default slice.reducer;
