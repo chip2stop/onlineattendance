@@ -27,4 +27,16 @@ const slice = createSlice({
           state[i].productName = action.payload.productName;
           state[i].category = action.payload.category;
           state[i].totalValue = action.payload.totalValue;
-      
+        }
+      }
+    },
+    del: (state, action) => {
+      if (action.payload.id) {
+        let newState = [...state];
+        newState = newState.filter((item) => item.id != action.payload.id);
+        return newState;
+      }
+    },
+    order: (state) => {
+      let newState = [...state];
+  
