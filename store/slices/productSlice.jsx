@@ -13,4 +13,12 @@ const slice = createSlice({
         newState.push({
           id: uuid(),
           productName: action.payload.productName,
-          category: actio
+          category: action.payload.category,
+          totalValue: action.payload.totalValue,
+          dateMade: action.payload.dateMade,
+        });
+        return newState;
+      }
+    },
+    edit: (state, action) => {
+      // loop to check if the id exists in my list, and then change the data accord
