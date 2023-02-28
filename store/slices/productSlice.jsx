@@ -21,4 +21,10 @@ const slice = createSlice({
       }
     },
     edit: (state, action) => {
-      // loop to check if the id exists in my list, and then change the data accord
+      // loop to check if the id exists in my list, and then change the data according to the id
+      for (let i in state) {
+        if (state[i].id === action.payload.id) {
+          state[i].productName = action.payload.productName;
+          state[i].category = action.payload.category;
+          state[i].totalValue = action.payload.totalValue;
+      
