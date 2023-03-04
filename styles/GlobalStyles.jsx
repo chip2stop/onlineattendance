@@ -36,3 +36,20 @@ export const GlobalStyles = createGlobalStyle`
   .sidebar-items p {
     margin-left: 1em;
   }
+
+  .sidebar-items:hover svg {
+    color: #b57295;
+  }
+
+  .sidebar-items:hover p {
+    color: #fff;
+  }
+
+  .active {
+    color: #fff;
+  }
+
+  .active-icon {
+    color: #b57295 !important;
+  }
+`;
